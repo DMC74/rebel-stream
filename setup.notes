@@ -1,0 +1,26 @@
+To use these:
+
+1. **Create conda environment**:
+```bash
+conda env create -f environment.yml
+```
+
+2. **Install for development**:
+```bash
+pip install -e ".[dev]"
+```
+
+3. **Install with GPU support**:
+```bash
+pip install -e ".[gpu]"
+```
+
+4. **Install documentation tools**:
+```bash
+pip install -e ".[docs]"
+```
+
+5. **Run tests**:
+```bash
+pytest tests/
+```
